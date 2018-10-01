@@ -4,8 +4,11 @@
 
 POST: http://localhost:3000/users 
 {"firstName" : "*****","lastName": "******","email": "*******","password":"********","address": "*********"}
+
 GET : http://localhost:3000/users?email=
+
 PUT : http://localhost:3000/users
+
 Delete : http://localhost:3000/users?email=
 
 2. Users can log in and log out by creating or destroying a token.
