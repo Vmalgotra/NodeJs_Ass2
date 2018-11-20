@@ -1,0 +1,16 @@
+{
+  "name": "NodejsGracefulShutdown",
+  "version": "1.0.0",
+  "description": "Used for demonstrating nodejs graceful shutdown in container",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Vipul",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "eze-log": "2.8.4"
+  }
+}

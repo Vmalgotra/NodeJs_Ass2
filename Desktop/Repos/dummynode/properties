@@ -1,0 +1,5 @@
+version_prefix=1.0
+version=$version_prefix.$BUILD_NUMBER
+container_name=dummyservice1
+dtr_org=aqa
+tag=$dtr_host/$dtr_org/$container_name:$version
